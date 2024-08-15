@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: cadetblue;
+}
+
+.whole_nav{
+    padding: 40px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    
+}
+
+.left-nav {
+    float: left; 
+    width: 50%;
+    margin-left: 100px;
+}
+
+.right-nav {
+    float: right; 
+    display: flex; 
+    justify-content: space-around;
+    width: 50%;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.text-bar {
+    font-size: 32px;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: antiquewhite  ;
+    border: 3px solid gray;
+}
+
+.kaedin-image, .chieck-image, .bidan-image, .adam-image, .omar-image{
+    display: none;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+li {
+    width: fit-content;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: gray;
+    opacity: 0.5;
+}
